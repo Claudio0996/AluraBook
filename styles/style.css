@@ -1,0 +1,33 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+
+:root{
+    --background-page: #C4C4C4;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000;
+    --branco: #fff;
+    --poppins: "Poppins", sans-serif;
+    --azul-gradiente: linear-gradient(97.45deg, #002F52 35.49%, #326589 165.37%);
+}
+
+/*reset CSS*/
+*, *:after, *:before {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+body{
+    background-color: var(--background-page);
+    font-family: var(--poppins);
+    color: var(--branco)
+}
+

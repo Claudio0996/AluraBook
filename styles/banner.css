@@ -1,0 +1,31 @@
+.banner{
+    background: var(--azul-gradiente);
+    text-align: center;
+    padding: 1em 2em;
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; */
+}
+
+.banner__titulo{
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.banner__text{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 2em;
+}
+
+.banner__pesquisa{
+    width: 75vw;
+    border: 1px solid var(--branco);
+    border-radius: 8px;
+    background: transparent;
+}
+
+.banner__pesquisa::-webkit-input-placeholder{
+    color: var(--branco);
+}
