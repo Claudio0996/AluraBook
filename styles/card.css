@@ -1,5 +1,7 @@
 .card{
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
     background: var(--branco);
     margin: 2em 1em 0.75em 1em;
     border-radius: 10px;
@@ -45,3 +47,15 @@
     display: flex;
 }
 
+.card__image__display{
+    height: 100%;
+}
+
+
+@media screen and (min-width: 1024px){
+    .card{
+        width: 60%;
+        gap: 5em;
+        margin: 2em auto;
+    }
+}

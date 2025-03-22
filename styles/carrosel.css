@@ -5,7 +5,7 @@
     font-weight: 700;
     background: var(--branco);  
     padding: 1em 0 0.5em 0;
-    text-align: center;
+    text-align: center; 
 }
 
 
@@ -15,4 +15,34 @@
 
 .swiper-pagination{
     position: static;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display:none;
+}
+
+@media screen and (min-width: 1024px){
+    .carrosel__titulo{
+        padding-top: 2em;
+        width: 100%;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0 3em 0;
+        --swiper-pagination-color: var(--azul);
+        --swiper-pagination-bullet-size: 0.6em;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        /* display: initial; */
+        --swiper-navigation-top-offset: 70%;
+        --swiper-navigation-size: 1em;
+        color: var(--branco);
+        background: var(--azul-gradiente);
+        padding: 2em;
+    }
 }
