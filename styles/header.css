@@ -77,7 +77,7 @@
     text-transform: uppercase;
 }
 
-.container__imagem__description{
+.container__imagem__descricao{
     display: none;
 }
 /*Tablet*/
@@ -135,6 +135,7 @@
     .wishlist{
         display: none;
     }
+
 
 
 
