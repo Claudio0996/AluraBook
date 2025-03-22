@@ -1,0 +1,47 @@
+.card{
+    display: flex;
+    background: var(--branco);
+    margin: 2em 1em 0.75em 1em;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 3px 3px 10px var(--preto);
+    
+}
+
+.card__conteudo__titulo{
+    color: var(--laranja);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.card__conteudo__tecnologias{
+    color: var(--azul);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.card__conteudo__texto{
+    color: var(--preto);
+    padding-bottom: 0.5em;
+}
+
+.card__image{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.card__link{
+    background: var(--laranja);
+    color: var(--white);
+    padding: 1em;
+}
+
+.avaliação__lista{
+    list-style-type: none;
+    display: flex;
+}
+
