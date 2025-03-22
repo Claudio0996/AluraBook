@@ -59,3 +59,27 @@
         margin: 2em auto;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .card{
+        width: 35%;
+        margin: 2em;
+        height: 300px;
+        position: relative;
+        top: 40px;
+    }
+
+    .card__conteudo__titulo{
+        font-size:2rem;
+    }
+
+    .card__conteudo__tecnologias{
+        font-size: 1.12rem;
+    }
+
+    .desktop-avaliacao{
+        padding-bottom: 3em;
+    }
+
+
+}

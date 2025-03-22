@@ -109,3 +109,14 @@
 
 
 }
+
+@media screen and (min-width: 1728px){
+    .topicos__lista{
+        flex-wrap: wrap;
+    }
+
+    .newsletter__cadastro{
+        margin: 0 10em;
+        padding: 5em;
+    }
+}

@@ -46,3 +46,16 @@
         padding: 2em;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .container-desktop{
+        display: flex;
+        align-items: center;
+        margin-bottom: 5em;
+    }
+
+    .swiper{
+        width: 40%;
+        margin: 0 4em 0 15em;
+    }
+}
